@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2021 12:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-03-2021 14:49</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">register new user information
+                                <span class="error-color">register new user information
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -204,7 +204,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                    <span class="error-message error-message-title">No such element exception: Cannot locate option with value: October</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -220,20 +220,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java:28)<br />co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java:25)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                        <pre>co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java:36)<br />co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java:26)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //ul[@class=â€™nav navbar-nav â€™]//li[@class=â€™unauthenticated-nav-bar__sign-upâ€™] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                        <pre>co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java :28)<br />co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java :25)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -241,19 +234,23 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource752808893725122027.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource6115541134031378154.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Given Camilo wants to register in Utest
+                <img src="67b0d54d4b1b354b6ed90cbf63d4f440b72a705e70aa40d9535c242ec01a52fa.png" title=" Given Camilo wants to register in Utest
 | strFirstName | strLastName | strEmail | strMonth | strDay | strYear |
 | Ramses | Torres | rammsest@gmail.com | October | 6 | 1991 |" width="1366"/>
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Camilo open up" width="1366"/>
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Camilo opens the Utest page" width="1366"/>
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Camilo open up (completed)" width="1366"/>
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Camilo register page" width="1366"/>
-                <img src="9052282bdbc45823b32f78c4230c53159da93c8af6a0a2ac47d21cbe721ee381.png" title=" Camilo clicks on Button that shows us the form to register: <span class='failing-color'>FAILURE</span>" width="1366"/>
+                <img src="67b0d54d4b1b354b6ed90cbf63d4f440b72a705e70aa40d9535c242ec01a52fa.png" title=" Camilo open up" width="1366"/>
+                <img src="67b0d54d4b1b354b6ed90cbf63d4f440b72a705e70aa40d9535c242ec01a52fa.png" title=" Camilo opens the Utest page" width="1366"/>
+                <img src="67b0d54d4b1b354b6ed90cbf63d4f440b72a705e70aa40d9535c242ec01a52fa.png" title=" Camilo open up (completed)" width="1366"/>
+                <img src="6d9a0cc91c80a2f987cd1d7d63cf7a9c8d59a1f4590337b86423c68a7e457a6d.png" title=" Camilo register page" width="1366"/>
+                <img src="6d9a0cc91c80a2f987cd1d7d63cf7a9c8d59a1f4590337b86423c68a7e457a6d.png" title=" Camilo enters 'Ramses' into Where do we write the name" width="1366"/>
+                <img src="19be8b545832b52182b0e0d7d2e01daf56d63c57a7613b85625946e790e1e658.png" title=" Camilo enters 'Torres' into where do we write the Last Name" width="1366"/>
+                <img src="4807b943be15767ac278f437e7aa32074002ce020ec67a8b01c8ae0a0df33daa.png" title=" Camilo enters 'rammsest@gmail.com' into where do we write the email" width="1366"/>
+                <img src="eb022fed4a48f7e198051f7dc905c3c772635fdd6e189107ec49787916cc29d7.png" title=" Camilo clicks on where do we write the month" width="1366"/>
+                <img src="eb022fed4a48f7e198051f7dc905c3c772635fdd6e189107ec49787916cc29d7.png" title=" Camilo selects October in where do we write the month: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

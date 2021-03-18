@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register UTest" skipped="0" tests="1" time="14.66" timestamp="2021-03-18 12:12:08"><testcase name="register new user information"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java:28)&#13;
-co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java:25)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Register UTest" skipped="0" tests="1" time="23.64" timestamp="2021-03-18 02:49:29"><testcase name="register new user information"><error message="Cannot locate option with value: October&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-NKG37V4', ip: '192.168.1.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Cannot locate option with value: October
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NKG37V4', ip: '192.168.1.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: unknown</error><system-err>Cannot locate option with value: October
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NKG37V4', ip: '192.168.1.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: unknown&#13;
+co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java:36)&#13;
+co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java:26)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>
