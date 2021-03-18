@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register UTest" skipped="0" tests="1" time="14.66" timestamp="2021-03-18 12:12:08"><testcase name="register new user information"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+co.com.choucair.pruebatecnica.tasks.RegisterPage.performAs(RegisterPage.java:28)&#13;
+co.com.choucair.pruebatecnica.stepdefinitions.RegisterUtestStepDefinitions.camilo_wants_to_register_in_Utest(RegisterUtestStepDefinitions.java:25)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
